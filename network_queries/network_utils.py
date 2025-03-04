@@ -169,7 +169,7 @@ def query_data(
 		if len(shortest_path_undirected) == 0:
 			print(f"Path length NA: No path found linking {ko} and {metabolite}")
 			return (ko, metabolite, None, None, None)
-	if shortest_path_directed == shortest_path_undirected:
+	if len(shortest_path_directed) != 0:
 		ko_upstream = True
 	else:
 		ko_upstream = False
