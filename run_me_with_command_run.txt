@@ -1,0 +1,26 @@
+network import file file="/Users/karcher/network_connectivity_queries/networks/bvu00010.xml"
+network delete network="Glycolysis / Gluconeogenesis  [bvu00010]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/networks/bvu00020.xml"
+network delete network="Citrate cycle (TCA cycle)  [bvu00020]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/networks/bvu00030.xml"
+network delete network="Pentose phosphate pathway  [bvu00030]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/networks/bvu00040.xml"
+network delete network="Pentose and glucuronate interconversions  [bvu00040]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/networks/bvu00051.xml"
+network delete network="Fructose and mannose metabolism  [bvu00051]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/networks/bvu00052.xml"
+network delete network="Galactose metabolism  [bvu00052]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/networks/bvu00053.xml"
+network delete network="Ascorbate and aldarate metabolism  [bvu00053]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/networks/bvu00500.xml"
+network delete network="Starch and sucrose metabolism  [bvu00500]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/networks/bvu00620.xml"
+network delete network="Pyruvate metabolism  [bvu00620]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/networks/bvu00630.xml"
+network delete network="Glyoxylate and dicarboxylate metabolism  [bvu00630]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/networks/bvu00640.xml"
+network delete network="Propanoate metabolism  [bvu00640]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/networks/bvu00650.xml"
+network delete network="Butanoate metabolism  [bvu00650]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/networks/bvu00660.xml"
+network delete network="C5-Branched dibasic acid metabolism  [bvu00660]" nodeList=KEGG_NODE_TYPE:map

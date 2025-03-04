@@ -6,11 +6,12 @@ Workflow to query the connectivity of KOs and metabolites based on KEGG
 - Cytoscape
 - python with dependencies
   - networkx
-  - matplotlib
 
 # Overview
 
-- Use `download_networks.sh` to query networks from KEGG
+- Use `download_networks.sh` to query networks from KEGG (can take a few minutes, download is slow...)
 - Open cytoscape and import networks
-  - Run `print_cytoscape_commands.sh` to generate `import_networks_in_cytoscape.txt` to copy into the cytoscape
-- Merge networks in Cytoscape and export as `master_network.graphml`
+  - Run `print_cytoscape_commands.sh` to generate `run_me_with_command_run.txts` to copy into the cytoscape
+- Merge networks in Cytoscape and export as `master_network.graphml`. Make sure merge on `KEGG_NODE_LABEL`
+- Configure `ko_metabolite_map.csv`
+- Run `bash query_network.sh` 
