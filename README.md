@@ -3,19 +3,17 @@
 Workflow to query the connectivity of KOs and metabolites based on KEGG
 
 # Requirements
-- Cytoscape
-- parallel
+- Cytoscape (only for preprocessing)
 - python with dependencies (all installable via pip)
-  - networkx
+  - networkx 
   - click
   - csv
-  - py4cytoscape
 
 # Download + preprocessing of KEGG reference pathways
 
 ### Note
 
-All steps in this section are preprocessing steps to download, modify and export KEGG pathways in python-readable format. As such, these only need to be run once. After step 5, you should find `graphml` networks in the `networks_graphml` folder, which represent the startin point of the analysis
+All steps in this section are preprocessing steps to download, modify and export KEGG pathways in python-readable format. As such, these only need to be run once. After step 3, you should find `graphml` networks in the `networks_graphml` folder, which represent the startin point of the analysis
 
 1. `cd aux_scripts`
 2. Use `download_networks.sh bvu` to query `bvu` networks from KEGG (can take a few minutes, download is slow...) and put them into the `networks` folder as `.xml` files
@@ -30,4 +28,4 @@ A core feature of this workflow is to take a set of enzyme <-> metabolite pairs 
 To run
 
 - Configure `ko_metabolite_map.csv` with your pairings of interest. You can add comment lines for readability, which will be ignored by the script.
-- `python network_queries/ --ko_metabolite_csv /Users/karcher/network_connectivity_queries/ko_metabolite_map.csv`
+- `python network_queries/main.py query-shortest-distances --ko_metabolite_csv ko_metabolite_map.csv`
