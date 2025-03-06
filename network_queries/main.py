@@ -28,13 +28,26 @@ def query_shortest_distances(input_folder_graphml, ko_metabolite_csv, output_csv
 	"""
 	Query the shortest distances between KOs and metabolites in the networks in the input folder.
 	"""
+
+	kos, metabolites = network_utils.read_ko_metabolite_map(ko_metabolite_csv)
+
 	all_network_data = {}
 	for network_file in os.listdir(input_folder_graphml):
 		network_file_path = os.path.join(input_folder_graphml, network_file)
 		network_res = query_shortest_distance_single_network(network_file_path, ko_metabolite_csv)
 		all_network_data[network_file] = network_res
-		click.echo(f"Successfully queried shortest distances between KOs and metabolites in {network_file_path}")
+		click.echo(click.style(f"Successfully queried shortest distances between KOs and metabolites in {network_file_path}", fg='green'))
 	
+	all_found_paths = all_network_data.items()
+	all_found_paths = [res for network_res in all_network_data.values() for res in network_res]
+	all_found_paths = [res for res in all_found_paths if res[-1] != None]
+	ko_metab_found = list(set([res[0:2] for res in all_found_paths]))
+
+	for ko, metabolite in zip(kos, metabolites):
+		if (ko, metabolite) not in ko_metab_found:
+			click.echo(click.style(f"Warning: No network yielded any path between {ko} and {metabolite}. Consider checking your input mapping for spelling (or ignore this warning if you're sure about that)", fg='orange'))
+	
+
 	with open(output_csv, 'w') as f:
 		writer = csv.writer(f)
 		writer.writerow(["network", "ko", "metabolite", "path_length", "directionality", "Path"])
