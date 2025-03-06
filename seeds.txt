@@ -1,0 +1,8 @@
+BVU_0976
+CO2
+Pyruvate
+Glucose
+Aspartase
+Lysine
+Lys
+thismetabolitedoesntexist

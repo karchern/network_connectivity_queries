@@ -8,6 +8,7 @@ Workflow to query the connectivity of KOs and metabolites based on KEGG
   - networkx 
   - click
   - csv
+  - pandas
 
 # Download + preprocessing of KEGG reference pathways
 
@@ -29,3 +30,11 @@ To run
 
 - Configure `ko_metabolite_map.csv` with your pairings of interest. You can add comment lines for readability, which will be ignored by the script.
 - `python network_queries/main.py query-shortest-distances --ko_metabolite_csv ko_metabolite_map.csv`
+  - Program will issue a warning if a given pairing was _never_ found - this could be because a path does no exist or because either KO or metabolite were misspelt.
+
+# Finding (direct) neighbors of KOs/metabolites
+- Configure `seeds.txt`. Should be a 1-column file containing seed nodes. Can be KOs, metabolites, or both.
+- abc
+  - Programm will issue a warning should a seed be found in no network.
+
+I've tried writing this such that extending this to neighbors of neighbors (and so on) should be trivial (should actually work straight out of the box)

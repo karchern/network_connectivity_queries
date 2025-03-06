@@ -91,6 +91,12 @@ def rename_nodes(
 
 def read_graphml(in_graphml_path):
 	return nx.read_graphml(in_graphml_path)
+
+def read_seed_file(p):
+	#seed file is 1 column txt file. return as list
+	with open(p, 'r') as f:
+		seeds = [line.strip() for line in f]
+	return seeds
 	
 
 def get_shortest_path_between_KO_and_metabolite(
