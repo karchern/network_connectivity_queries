@@ -34,7 +34,5 @@ To run
 
 # Finding (direct) neighbors of KOs/metabolites
 - Configure `seeds.txt`. Should be a 1-column file containing seed nodes. Can be KOs, metabolites, or both.
-- abc
+- To compute sets of immediate neighbors of node entries in `seeds.txt`, run `python network_queries/main.py query-neighborhoods --degree_of_neighborhood 1`. If you want to query more extended neighborhood spaces, increase `--degree_of_neighborhood`
   - Programm will issue a warning should a seed be found in no network.
-
-I've tried writing this such that extending this to neighbors of neighbors (and so on) should be trivial (should actually work straight out of the box)
