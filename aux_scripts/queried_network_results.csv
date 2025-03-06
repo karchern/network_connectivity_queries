@@ -1,5 +1,0 @@
-BVU_0976,Pyruvate,2,ko is upstream,BVU_0976 --- PEP --- BVU_3358 --- Pyruvate
-BVU_0976,Acetyl-CoA,2,ko is upstream,BVU_0976 --- Oxaloacetate --- BVU_1961 --- Acetyl-CoA
-BVU_0976,Oxaloacetate,1,ko is upstream,BVU_0976 --- Oxaloacetate
-BVU_1301,Oxaloacetate,5,ko is upstream,BVU_1301 --- Cori ester --- BVU_3804 --- Ribose 5-phosphate --- BVU_0358 --- Glyceraldehyde 3-phosphate --- BVU_3056 --- Pyruvate --- BVU_1975 --- Oxaloacetate
-BVU_1301,blablametabolite,,,
