@@ -116,11 +116,11 @@ def get_shortest_path_between_KO_and_metabolite(
 		shortest_path = []
 	return shortest_path
 
-def prune_map_nodes(graph_object):
+def prune_nodes(graph_object):
 	# Remove map nodes (blue big nodes in cytoscape)
 	nodes_to_remove = []
 	for node in graph_object.nodes():
-		if graph_object.nodes[node]['KEGG_NODE_TYPE'] == 'map':
+		if graph_object.nodes[node]['KEGG_NODE_TYPE'] == 'map' or graph_object.nodes[node]['KEGG_NODE_TYPE'] == 'group':
 			nodes_to_remove.append(node)
 	graph_object.remove_nodes_from(nodes_to_remove)
 	return graph_object
