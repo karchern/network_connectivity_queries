@@ -4,10 +4,11 @@ Workflow to query the connectivity of KOs and metabolites based on KEGG
 
 # Requirements
 - Cytoscape
-- python with dependencies
+- python with dependencies (all installable via pip)
   - networkx
   - click
   - csv
+  - py4cytoscape
 
 # Overview
 

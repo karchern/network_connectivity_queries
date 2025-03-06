@@ -8,6 +8,8 @@ def read_ko_metabolite_map(
 	metabolites = []
 	with open(ko_metabolite_map, 'r') as f:
 		for line in f:
+			if line.startswith("#"):
+				continue
 			ko, metabolite = line.strip().split(delim)
 			kos.append(ko)
 			metabolites.append(metabolite)
@@ -49,7 +51,7 @@ def render_path_readable(
 	if p is None:
 		print("PATH length NA;")
 		return (None, None, None, None, None)
-	path_readable = " -> ".join(p)
+	path_readable = " --- ".join(p)
 	print(f"{ko}, {metabolite}, PATH length {int(len(p)/2)} and {'ko is upstream' if ko_upstream else 'ko is downstream'}: {path_readable}")
 	return (
 		ko, metabolite, int(len(p)/2),'ko is upstream' if ko_upstream else 'ko is downstream', path_readable
@@ -167,8 +169,9 @@ def query_data(
 	shortest_path_undirected = ensure_shortest_path_makes_sense(shortest_path_undirected)
 	if len(shortest_path_directed) == 0:
 		if len(shortest_path_undirected) == 0:
-			print(f"Path length NA: No path found linking {ko} and {metabolite}")
+			print(f"{ko}, {metabolite}, Path length NA: No path found linking them.")
 			return (ko, metabolite, None, None, None)
+	# TODO: This logic is still somewhat broken; you need to fix it.
 	if len(shortest_path_directed) != 0:
 		ko_upstream = True
 	else:

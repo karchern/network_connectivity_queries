@@ -3,7 +3,7 @@ import click
 import csv
 
 @click.command()
-@click.option('--input_graphml', help='Path to the graphml file.', default = '/Users/karcher/network_connectivity_queries/master_network.graphml', show_default = True)
+@click.option('--input_graphml', help='Path to the graphml file.', default = '/Users/karcher/network_connectivity_queries/master_network/master_network.graphml', show_default = True)
 @click.option('--ko_metabolite_csv')
 @click.option('--output_csv', help='Path to the output csv file.', default = '/Users/karcher/network_connectivity_queries/queried_network_results.csv', show_default = True)
 def main(input_graphml, ko_metabolite_csv, output_csv):
@@ -22,9 +22,6 @@ def main(input_graphml, ko_metabolite_csv, output_csv):
 		
 		# Write the data rows
 		for row in queried_network_data:
-			# if isinstance(row, NoneType):
-			# 	breakpoint()
-			print(row)
 			writer.writerow(row)
 	
 

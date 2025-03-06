@@ -1,5 +1,10 @@
+# 2 steps away upstream
 BVU_0976,Pyruvate
+# 3 steps away upstream
 BVU_0976,Acetyl-CoA
+# 1 step away upstream
 BVU_0976,Oxaloacetate
+# 10 steps away upstream 
 BVU_1301,Oxaloacetate
+# blablametabolite does not exist...
 BVU_1301,blablametabolite
