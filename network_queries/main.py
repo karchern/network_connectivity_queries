@@ -129,7 +129,12 @@ def query_neighborhoods(
 	df = df.applymap(helper)
 	df.to_csv(output_csv)
 
-	# TODO: Implement check similarly to above
+	seed_found = list(df.columns)
+
+	for seed in seeds:
+		if seed not in seed_found:
+			click.echo(click.style(f"Warning: Could not find {seed} in any network. Consider checking your input mapping for spelling (or ignore this warning if you're sure about that)", fg='red'))
+
 	# TODO: Update README.md
 	# TODO: Write Dimitris
 
