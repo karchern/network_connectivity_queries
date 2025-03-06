@@ -1,2 +1,3 @@
 aux_scripts/cytoscape.sh
 ko_metabolite_shortest_distances.csv
+all_nodes.txt

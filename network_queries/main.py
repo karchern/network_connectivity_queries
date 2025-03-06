@@ -1,4 +1,5 @@
 import network_utils
+from other_utils import find_closest_match
 import click
 import csv
 import os
@@ -131,9 +132,17 @@ def query_neighborhoods(
 
 	seed_found = list(df.columns)
 
+	if any(seed not in seed_found for seed in seeds):
+		all_node_names = _get_all_nodes_in_networks(input_folder_graphml)
+
 	for seed in seeds:
 		if seed not in seed_found:
-			click.echo(click.style(f"Warning: Could not find {seed} in any network. Consider checking your input mapping for spelling (or ignore this warning if you're sure about that)", fg='red'))
+			close_match = find_closest_match(seed, all_node_names)
+			if close_match:
+				stri = f"Warning: Could not find {seed} in any network. Did you mean {close_match}?"
+			else:
+				stri = f"Warning: Could not find {seed} in any network, and I couldn't find a close match in the networks. This suggests the seed is not present in the networks."
+			click.echo(click.style(stri, fg='red'))
 
 	# TODO: Update README.md
 	# TODO: Write Dimitris
@@ -146,6 +155,18 @@ def get_all_nodes():
 @click.option('--input_folder_graphml', help='Path to folder holding networks as graphml files.', default = 'networks_graphml', show_default = True)
 @click.option('--output_file', help='Path to file holding all unique nodes found.', default = 'all_nodes.txt', show_default = True)
 def get_all_nodes_in_networks(input_folder_graphml, output_file):
+	all_nodes = _get_all_nodes_in_networks(input_folder_graphml)
+	click.echo(f"Found {len(all_nodes)} unique nodes in all networks.")
+	if output_file:
+		with open(output_file, 'w') as f:
+			for node in all_nodes:
+				f.write(f"{node}\n")
+	return(all_nodes)
+
+	
+def _get_all_nodes_in_networks(
+	input_folder_graphml
+):
 	all_nodes = []
 	for network_file in os.listdir(input_folder_graphml):
 		network_file_path = os.path.join(input_folder_graphml, network_file)
@@ -155,10 +176,7 @@ def get_all_nodes_in_networks(input_folder_graphml, output_file):
 		nodes = list(G_directed.nodes())
 		all_nodes.extend(nodes)
 	all_nodes = list(set(all_nodes))
-	click.echo(f"Found {len(all_nodes)} unique nodes in all networks.")
-	with open(output_file, 'w') as f:
-		for node in all_nodes:
-			f.write(f"{node}\n")
+	return(all_nodes)
 
 		
 

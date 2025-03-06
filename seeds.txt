@@ -2,7 +2,8 @@ BVU_0976
 CO2
 Pyruvate
 Glucose
-Aspartase
-Lysine
-Lys
+L-Aspartate
+D-Aspartate
+D-Lysine
+L-Lysine
 thismetabolitedoesntexist
