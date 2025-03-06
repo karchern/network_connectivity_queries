@@ -138,7 +138,31 @@ def query_neighborhoods(
 	# TODO: Update README.md
 	# TODO: Write Dimitris
 
-cli = click.CommandCollection(sources=[get_ko_metabolite_shortest_distances, query_neighborhood])
+@click.group()
+def get_all_nodes():
+	pass
+
+@get_all_nodes.command()
+@click.option('--input_folder_graphml', help='Path to folder holding networks as graphml files.', default = 'networks_graphml', show_default = True)
+@click.option('--output_file', help='Path to file holding all unique nodes found.', default = 'all_nodes.txt', show_default = True)
+def get_all_nodes_in_networks(input_folder_graphml, output_file):
+	all_nodes = []
+	for network_file in os.listdir(input_folder_graphml):
+		network_file_path = os.path.join(input_folder_graphml, network_file)
+		G_directed = network_utils.read_graphml(network_file_path)
+		G_directed = network_utils.prune_nodes(G_directed)
+		G_directed = network_utils.rename_nodes(G_directed, sel_substring = "KEGG_NODE_LABEL_LIST_FIRST", debug = True)
+		nodes = list(G_directed.nodes())
+		all_nodes.extend(nodes)
+	all_nodes = list(set(all_nodes))
+	click.echo(f"Found {len(all_nodes)} unique nodes in all networks.")
+	with open(output_file, 'w') as f:
+		for node in all_nodes:
+			f.write(f"{node}\n")
+
+		
+
+cli = click.CommandCollection(sources=[get_ko_metabolite_shortest_distances, query_neighborhood, get_all_nodes])
 
 if __name__ == "__main__":
 	cli()
