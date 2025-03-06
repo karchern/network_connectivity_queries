@@ -1,12 +1,17 @@
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu03410.xml"
 network delete network="Base excision repair  [bvu03410]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu03410.graphml"
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu03420.xml"
 network delete network="Nucleotide excision repair  [bvu03420]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu03420.graphml"
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu03430.xml"
 network delete network="Mismatch repair  [bvu03430]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu03430.graphml"
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu03440.xml"
 network delete network="Homologous recombination  [bvu03440]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu03440.graphml"
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu02010.xml"
 network delete network="ABC transporters  [bvu02010]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu02010.graphml"
 session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_18.cys"
 command quit

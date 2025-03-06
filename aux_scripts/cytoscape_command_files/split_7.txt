@@ -1,12 +1,17 @@
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00270.xml"
 network delete network="Cysteine and methionine metabolism  [bvu00270]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00270.graphml"
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00280.xml"
 network delete network="Valine, leucine and isoleucine degradation  [bvu00280]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00280.graphml"
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00290.xml"
 network delete network="Valine, leucine and isoleucine biosynthesis  [bvu00290]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00290.graphml"
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00300.xml"
 network delete network="Lysine biosynthesis  [bvu00300]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00300.graphml"
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00220.xml"
 network delete network="Arginine biosynthesis  [bvu00220]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00220.graphml"
 session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_7.cys"
 command quit

@@ -1,12 +1,17 @@
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00330.xml"
 network delete network="Arginine and proline metabolism  [bvu00330]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00330.graphml"
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00340.xml"
 network delete network="Histidine metabolism  [bvu00340]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00340.graphml"
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00350.xml"
 network delete network="Tyrosine metabolism  [bvu00350]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00350.graphml"
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00360.xml"
 network delete network="Phenylalanine metabolism  [bvu00360]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00360.graphml"
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00400.xml"
 network delete network="Phenylalanine, tyrosine and tryptophan biosynthesis  [bvu00400]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00400.graphml"
 session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_8.cys"
 command quit

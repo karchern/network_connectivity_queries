@@ -1,12 +1,17 @@
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00600.xml"
 network delete network="Sphingolipid metabolism  [bvu00600]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00600.graphml"
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00230.xml"
 network delete network="Purine metabolism  [bvu00230]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00230.graphml"
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00240.xml"
 network delete network="Pyrimidine metabolism  [bvu00240]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00240.graphml"
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00250.xml"
 network delete network="Alanine, aspartate and glutamate metabolism  [bvu00250]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00250.graphml"
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00260.xml"
 network delete network="Glycine, serine and threonine metabolism  [bvu00260]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00260.graphml"
 session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_6.cys"
 command quit

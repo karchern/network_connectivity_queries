@@ -1,12 +1,17 @@
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00541.xml"
 network delete network="Biosynthesis of various nucleotide sugars  [bvu00541]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00541.graphml"
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00550.xml"
 network delete network="Peptidoglycan biosynthesis  [bvu00550]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00550.graphml"
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00552.xml"
 network delete network="Teichoic acid biosynthesis  [bvu00552]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00552.graphml"
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00543.xml"
 network delete network="Exopolysaccharide biosynthesis  [bvu00543]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00543.graphml"
 network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00730.xml"
 network delete network="Thiamine metabolism  [bvu00730]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00730.graphml"
 session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_11.cys"
 command quit

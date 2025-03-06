@@ -15,9 +15,10 @@ do
 	networkname=$(echo $line | awk '{for(i=2;i<=NF;++i)printf "%s ", $i; print ""}')
 	echo -e "network import file file=\"$(pwd)/../networks/${base}${networkid}.xml\""
 	echo -e "network delete network=\"${networkname} [${base}${networkid}]\" nodeList=KEGG_NODE_TYPE:map"
+	echo -e "network export options=\"graphml\" outputFile=\"$(pwd)/../networks_graphml/${base}${networkid}.graphml\""
 done < ../network_ids_to_operate_on.txt > cytoscape_command_files/tmp.txt
 
-n=10
+n=15
 cd cytoscape_command_files
 
 # Split tmp.txt into files with n lines
