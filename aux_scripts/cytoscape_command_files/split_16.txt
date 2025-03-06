@@ -1,0 +1,12 @@
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00625.xml"
+network delete network="Chloroalkane and chloroalkene degradation  [bvu00625]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00626.xml"
+network delete network="Naphthalene degradation  [bvu00626]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu03020.xml"
+network delete network="RNA polymerase  [bvu03020]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu03010.xml"
+network delete network="Ribosome  [bvu03010]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00970.xml"
+network delete network="Aminoacyl-tRNA biosynthesis  [bvu00970]" nodeList=KEGG_NODE_TYPE:map
+session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_16.cys"
+command quit

@@ -1,0 +1,12 @@
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00061.xml"
+network delete network="Fatty acid biosynthesis  [bvu00061]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00071.xml"
+network delete network="Fatty acid degradation  [bvu00071]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00121.xml"
+network delete network="Secondary bile acid biosynthesis  [bvu00121]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00561.xml"
+network delete network="Glycerolipid metabolism  [bvu00561]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00564.xml"
+network delete network="Glycerophospholipid metabolism  [bvu00564]" nodeList=KEGG_NODE_TYPE:map
+session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_5.cys"
+command quit

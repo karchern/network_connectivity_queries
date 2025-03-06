@@ -1,0 +1,12 @@
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00410.xml"
+network delete network="beta-Alanine metabolism  [bvu00410]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00430.xml"
+network delete network="Taurine and hypotaurine metabolism  [bvu00430]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00440.xml"
+network delete network="Phosphonate and phosphinate metabolism  [bvu00440]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00450.xml"
+network delete network="Selenocompound metabolism  [bvu00450]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00460.xml"
+network delete network="Cyanoamino acid metabolism  [bvu00460]" nodeList=KEGG_NODE_TYPE:map
+session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_9.cys"
+command quit

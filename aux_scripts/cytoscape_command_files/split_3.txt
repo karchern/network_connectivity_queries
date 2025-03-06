@@ -1,0 +1,12 @@
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00640.xml"
+network delete network="Propanoate metabolism  [bvu00640]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00650.xml"
+network delete network="Butanoate metabolism  [bvu00650]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00660.xml"
+network delete network="C5-Branched dibasic acid metabolism  [bvu00660]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00562.xml"
+network delete network="Inositol phosphate metabolism  [bvu00562]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00190.xml"
+network delete network="Oxidative phosphorylation  [bvu00190]" nodeList=KEGG_NODE_TYPE:map
+session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_3.cys"
+command quit

@@ -1,0 +1,12 @@
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00785.xml"
+network delete network="Lipoic acid metabolism  [bvu00785]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00790.xml"
+network delete network="Folate biosynthesis  [bvu00790]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00670.xml"
+network delete network="One carbon pool by folate  [bvu00670]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00860.xml"
+network delete network="Porphyrin metabolism  [bvu00860]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00130.xml"
+network delete network="Ubiquinone and other terpenoid-quinone biosynthesis  [bvu00130]" nodeList=KEGG_NODE_TYPE:map
+session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_13.cys"
+command quit

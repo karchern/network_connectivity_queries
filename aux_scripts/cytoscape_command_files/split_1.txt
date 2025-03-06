@@ -1,0 +1,12 @@
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00010.xml"
+network delete network="Glycolysis / Gluconeogenesis  [bvu00010]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00020.xml"
+network delete network="Citrate cycle (TCA cycle)  [bvu00020]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00030.xml"
+network delete network="Pentose phosphate pathway  [bvu00030]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00040.xml"
+network delete network="Pentose and glucuronate interconversions  [bvu00040]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00051.xml"
+network delete network="Fructose and mannose metabolism  [bvu00051]" nodeList=KEGG_NODE_TYPE:map
+session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_1.cys"
+command quit

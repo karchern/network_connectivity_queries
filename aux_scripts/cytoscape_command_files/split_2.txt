@@ -1,0 +1,12 @@
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00052.xml"
+network delete network="Galactose metabolism  [bvu00052]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00053.xml"
+network delete network="Ascorbate and aldarate metabolism  [bvu00053]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00500.xml"
+network delete network="Starch and sucrose metabolism  [bvu00500]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00620.xml"
+network delete network="Pyruvate metabolism  [bvu00620]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00630.xml"
+network delete network="Glyoxylate and dicarboxylate metabolism  [bvu00630]" nodeList=KEGG_NODE_TYPE:map
+session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_2.cys"
+command quit

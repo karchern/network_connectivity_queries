@@ -1,0 +1,12 @@
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00470.xml"
+network delete network="D-Amino acid metabolism  [bvu00470]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00480.xml"
+network delete network="Glutathione metabolism  [bvu00480]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00520.xml"
+network delete network="Amino sugar and nucleotide sugar metabolism  [bvu00520]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00511.xml"
+network delete network="Other glycan degradation  [bvu00511]" nodeList=KEGG_NODE_TYPE:map
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00540.xml"
+network delete network="Lipopolysaccharide biosynthesis  [bvu00540]" nodeList=KEGG_NODE_TYPE:map
+session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_10.cys"
+command quit
