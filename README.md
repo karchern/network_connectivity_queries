@@ -12,7 +12,7 @@ All steps in this section are preprocessing steps to download, modify and export
 
 For `bvu`, all of these have already been performed, so those networks are ready to be queried.
 
-1. `cd aux_scripts`
+1. clone the repo `git clone https://github.com/karchern/network_connectivity_queries.git`; `cd aux_scripts`
 2. Use `download_networks.sh bvu` to query `bvu` networks from KEGG (can take a few minutes, download is slow...) and put them into the `networks` folder as `.xml` files
   - Make sure to populate `network_ids_to_operate_on.txt` (go to the [KEGG pathway maps URL](https://www.genome.jp/kegg-bin/show_organism?menu_type=pathway_maps&org=bvu) and copy the info into the txt file)
   - Please note: At least for `bvu`, the `Global and overview maps` networks are formatted differently, and right now are not supported by this workflow (should need arise in the future it should not be too hard to make it work).
