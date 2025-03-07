@@ -25,10 +25,13 @@ A core feature of this workflow is to take a set of enzyme <-> metabolite pairs 
 To run
 
 - Configure `ko_metabolite_map.csv` with your pairings of interest. You can add comment lines for readability, which will be ignored by the script.
-- `python network_queries/main.py query-shortest-distances --ko_metabolite_csv ko_metabolite_map.csv`
+- In it's simplest form (reading from `ko_metabolite_map.csv`), run `query_kegg_networks query-shortest-distances --ko_metabolite_csv ko_metabolite_map.csv`, by default writing results to `ko_metabolite_shortest_distances.csv`
+  - Results will contain one line per network and ko <-> metabolite pair
   - Program will issue a warning if a given pairing was _never_ found - this could be because a path does no exist or because either KO or metabolite were misspelt.
 
 # Finding (direct) neighbors of KOs/metabolites
+
+Another commong operation is to find neighbors of KEGG pathway entries. 
 
 - Configure `seeds.txt`. Should be a 1-column file containing seed nodes. Can be KOs, metabolites, or both.
 - To compute sets of immediate neighbors of node entries in `seeds.txt`, run `python network_queries/main.py query-neighborhoods --degree_of_neighborhood 1`. If you want to query more extended neighborhood spaces (i.e neighbors of neighbors, neighbors of neighbors of neighbors etc), increase `--degree_of_neighborhood`
