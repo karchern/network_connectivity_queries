@@ -12,9 +12,9 @@ Workflow to query the connectivity of KOs and metabolites based on KEGG
 
 # Download + preprocessing of KEGG reference pathways
 
-### Note
+All steps in this section are preprocessing steps to download, modify and export KEGG pathways in python-readable format. As such, these only need to be run once. After step 3, you should find `graphml` networks in the `networks_graphml` folder, which represent the startin point of the analysis.
 
-All steps in this section are preprocessing steps to download, modify and export KEGG pathways in python-readable format. As such, these only need to be run once. After step 3, you should find `graphml` networks in the `networks_graphml` folder, which represent the startin point of the analysis
+For `bvu`, all of these have already been performed, so those networks are ready to be queried.
 
 1. `cd aux_scripts`
 2. Use `download_networks.sh bvu` to query `bvu` networks from KEGG (can take a few minutes, download is slow...) and put them into the `networks` folder as `.xml` files
