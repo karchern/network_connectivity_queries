@@ -33,6 +33,7 @@ To run
   - Program will issue a warning if a given pairing was _never_ found - this could be because a path does no exist or because either KO or metabolite were misspelt.
 
 # Finding (direct) neighbors of KOs/metabolites
+
 - Configure `seeds.txt`. Should be a 1-column file containing seed nodes. Can be KOs, metabolites, or both.
-- To compute sets of immediate neighbors of node entries in `seeds.txt`, run `python network_queries/main.py query-neighborhoods --degree_of_neighborhood 1`. If you want to query more extended neighborhood spaces, increase `--degree_of_neighborhood`
+- To compute sets of immediate neighbors of node entries in `seeds.txt`, run `python network_queries/main.py query-neighborhoods --degree_of_neighborhood 1`. If you want to query more extended neighborhood spaces (i.e neighbors of neighbors, neighbors of neighbors of neighbors etc), increase `--degree_of_neighborhood`
   - Programm will issue a warning should a seed be found in no network.
