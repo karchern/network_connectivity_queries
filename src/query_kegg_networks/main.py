@@ -1,5 +1,5 @@
-import network_utils
-from other_utils import find_closest_match
+from . import network_utils
+from .other_utils import find_closest_match
 import click
 import csv
 import os

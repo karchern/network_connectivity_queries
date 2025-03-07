@@ -1,0 +1,2 @@
+[console_scripts]
+query_kegg_networks = query_kegg_networks.__main__:cli
