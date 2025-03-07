@@ -2,9 +2,11 @@
 
 Workflow to query the connectivity of KOs and metabolites based on KEGG
 
-# Requirements
-- Cytoscape (only necessary for preprocessing of KEGG pathways)
-- : `pip install git+https://github.com/karchern/network_connectivity_queries.git`
+# Requirements/Installation
+
+To install the program, run `pip install git+https://github.com/karchern/network_connectivity_queries.git`
+
+You will additionally need `cytoscape` if you want to preprocessing of KEGG pathways
 
 # Download + preprocessing of KEGG reference pathways
 
