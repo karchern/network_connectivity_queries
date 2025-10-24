@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<!DOCTYPE pathway SYSTEM "https://www.kegg.jp/kegg/xml/KGML_v0.7.2_.dtd">
+<!-- Creation date: Nov 25, 2020 10:49:32 +0900 (GMT+9) -->
+<pathway name="path:eco02040" org="eco" number="02040"
+         title="Flagellar assembly"
+         image="https://www.kegg.jp/kegg/pathway/eco/eco02040.png"
+         link="https://www.kegg.jp/kegg-bin/show_pathway?eco02040">
+    <entry id="3" name="path:eco03070" type="map"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco03070">
+        <graphics name="Bacterial secretion system" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="606" y="539" width="140" height="26"/>
+    </entry>
+    <entry id="4" name="path:eco02030" type="map"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco02030">
+        <graphics name="Bacterial chemotaxis" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="597" y="502" width="122" height="26"/>
+    </entry>
+    <entry id="31" name="path:eco02040" type="map"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco02040">
+        <graphics name="TITLE:Flagellar assembly" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="140" y="58" width="188" height="25"/>
+    </entry>
+    <entry id="93" name="eco:b1942" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1942">
+        <graphics name="fliJ" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="296" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="94" name="eco:b1948" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1948">
+        <graphics name="fliP" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="572" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="95" name="eco:b1949" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1949">
+        <graphics name="fliQ" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="618" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="96" name="eco:b1947" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1947">
+        <graphics name="fliO" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="526" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="97" name="eco:b1941" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1941">
+        <graphics name="fliI" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="250" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="98" name="eco:b1940" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1940">
+        <graphics name="fliH" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="204" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="99" name="eco:b1946" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1946">
+        <graphics name="fliN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="481" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="100" name="eco:b1945" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1945">
+        <graphics name="fliM" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="435" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="101" name="eco:b1939" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1939">
+        <graphics name="fliG" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="158" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="102" name="eco:b1938" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1938">
+        <graphics name="fliF" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="113" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="103" name="eco:b1943" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1943">
+        <graphics name="fliK" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="341" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="104" name="eco:b1937" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1937">
+        <graphics name="fliE" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="63" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="105" name="eco:b1944" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1944">
+        <graphics name="fliL" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="390" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="106" name="eco:b1950" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1950">
+        <graphics name="fliR" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="663" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="108" name="eco:b1071" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1071">
+        <graphics name="flgM" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="532" y="805" width="46" height="17"/>
+    </entry>
+    <entry id="109" name="eco:b1072" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1072">
+        <graphics name="flgA" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="63" y="690" width="46" height="17"/>
+    </entry>
+    <entry id="110" name="eco:b1070" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1070">
+        <graphics name="flgN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="578" y="805" width="46" height="17"/>
+    </entry>
+    <entry id="111" name="eco:b1075" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1075">
+        <graphics name="flgD" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="204" y="690" width="46" height="17"/>
+    </entry>
+    <entry id="112" name="eco:b1077" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1077">
+        <graphics name="flgF" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="295" y="690" width="46" height="17"/>
+    </entry>
+    <entry id="113" name="eco:b1076" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1076">
+        <graphics name="flgE" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="250" y="690" width="46" height="17"/>
+    </entry>
+    <entry id="114" name="eco:b1082" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1082">
+        <graphics name="flgK" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="533" y="690" width="46" height="17"/>
+    </entry>
+    <entry id="115" name="eco:b1083" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1083">
+        <graphics name="flgL" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="579" y="690" width="46" height="17"/>
+    </entry>
+    <entry id="116" name="eco:b1074" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1074">
+        <graphics name="flgC" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="158" y="690" width="46" height="17"/>
+    </entry>
+    <entry id="117" name="eco:b1073" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1073">
+        <graphics name="flgB" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="112" y="690" width="46" height="17"/>
+    </entry>
+    <entry id="118" name="eco:b1080" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1080">
+        <graphics name="flgI" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="433" y="690" width="46" height="17"/>
+    </entry>
+    <entry id="119" name="eco:b1079" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1079">
+        <graphics name="flgH" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="387" y="690" width="46" height="17"/>
+    </entry>
+    <entry id="120" name="eco:b1078" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1078">
+        <graphics name="flgG" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="341" y="690" width="46" height="17"/>
+    </entry>
+    <entry id="121" name="eco:b1081" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1081">
+        <graphics name="flgJ" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="479" y="690" width="46" height="17"/>
+    </entry>
+    <entry id="123" name="ko:K24344" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K24344">
+        <graphics name="K24344" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="63" y="744" width="46" height="17"/>
+    </entry>
+    <entry id="124" name="ko:K09860" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K09860">
+        <graphics name="K09860" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="109" y="744" width="46" height="17"/>
+    </entry>
+    <entry id="125" name="ko:K24346" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K24346">
+        <graphics name="K24346" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="155" y="744" width="46" height="17"/>
+    </entry>
+    <entry id="126" name="ko:K24343" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K24343">
+        <graphics name="K24343" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="201" y="744" width="46" height="17"/>
+    </entry>
+    <entry id="127" name="ko:K21218" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K21218">
+        <graphics name="K21218" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="310" y="744" width="46" height="17"/>
+    </entry>
+    <entry id="128" name="ko:K21217" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K21217">
+        <graphics name="K21217" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="261" y="744" width="46" height="17"/>
+    </entry>
+    <entry id="129" name="eco:b1926" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1926">
+        <graphics name="fliT" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="209" y="805" width="46" height="17"/>
+    </entry>
+    <entry id="130" name="eco:b1925" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1925">
+        <graphics name="fliS" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="163" y="805" width="46" height="17"/>
+    </entry>
+    <entry id="131" name="eco:b1923" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1923">
+        <graphics name="fliC" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="63" y="805" width="46" height="17"/>
+    </entry>
+    <entry id="132" name="eco:b1924" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1924">
+        <graphics name="fliD" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="118" y="805" width="46" height="17"/>
+    </entry>
+    <entry id="133" name="eco:b1921" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1921">
+        <graphics name="fliZ" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="674" y="805" width="46" height="17"/>
+    </entry>
+    <entry id="134" name="eco:b1920" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1920">
+        <graphics name="tcyJ" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="628" y="805" width="46" height="17"/>
+    </entry>
+    <entry id="135" name="eco:b1879" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1879">
+        <graphics name="flhA" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="762" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="136" name="eco:b1880" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1880">
+        <graphics name="flhB" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="808" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="137" name="eco:b1878" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1878">
+        <graphics name="flhE" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="716" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="142" name="ko:K10941" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K10941">
+        <graphics name="K10941" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="264" y="908" width="46" height="17"/>
+    </entry>
+    <entry id="143" name="eco:b1892" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1892">
+        <graphics name="flhD" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="264" y="931" width="46" height="17"/>
+    </entry>
+    <entry id="144" name="eco:b1891" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1891">
+        <graphics name="flhC" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="264" y="948" width="46" height="17"/>
+    </entry>
+    <entry id="147" name="ko:K10943" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K10943">
+        <graphics name="K10943" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="557" y="1002" width="46" height="17"/>
+    </entry>
+    <entry id="148" name="eco:b1922" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1922">
+        <graphics name="fliA" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="698" y="1000" width="46" height="17"/>
+    </entry>
+    <entry id="151" name="eco:b3067" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b3067">
+        <graphics name="rpoD" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="187" y="941" width="46" height="17"/>
+    </entry>
+    <entry id="152" name="eco:b3202" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b3202">
+        <graphics name="rpoN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="342" y="887" width="46" height="17"/>
+    </entry>
+    <entry id="153" name="eco:b1890" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1890">
+        <graphics name="motA" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="302" y="805" width="46" height="17"/>
+    </entry>
+    <entry id="154" name="eco:b1889" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?eco:b1889">
+        <graphics name="motB" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="348" y="805" width="46" height="17"/>
+    </entry>
+    <entry id="155" name="ko:K10564" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K10564">
+        <graphics name="K10564" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="394" y="805" width="46" height="17"/>
+    </entry>
+    <entry id="156" name="ko:K10565" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K10565">
+        <graphics name="K10565" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="440" y="805" width="46" height="17"/>
+    </entry>
+</pathway>
