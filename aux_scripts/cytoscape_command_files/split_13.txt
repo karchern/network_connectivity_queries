@@ -1,17 +1,17 @@
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00785.xml"
-network delete network="Lipoic acid metabolism  [bvu00785]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00785.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00790.xml"
-network delete network="Folate biosynthesis  [bvu00790]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00790.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00670.xml"
-network delete network="One carbon pool by folate  [bvu00670]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00670.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00860.xml"
-network delete network="Porphyrin metabolism  [bvu00860]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00860.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00130.xml"
-network delete network="Ubiquinone and other terpenoid-quinone biosynthesis  [bvu00130]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00130.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00430.xml"
+network delete network="Taurine and hypotaurine metabolism  [eco00430]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00430.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00440.xml"
+network delete network="Phosphonate and phosphinate metabolism  [eco00440]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00440.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00450.xml"
+network delete network="Selenocompound metabolism  [eco00450]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00450.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00460.xml"
+network delete network="Cyanoamino acid metabolism  [eco00460]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00460.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00470.xml"
+network delete network="D-Amino acid metabolism  [eco00470]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00470.graphml"
 session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_13.cys"
 command quit

@@ -1,17 +1,17 @@
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00625.xml"
-network delete network="Chloroalkane and chloroalkene degradation  [bvu00625]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00625.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00626.xml"
-network delete network="Naphthalene degradation  [bvu00626]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00626.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu03020.xml"
-network delete network="RNA polymerase  [bvu03020]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu03020.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu03010.xml"
-network delete network="Ribosome  [bvu03010]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu03010.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00970.xml"
-network delete network="Aminoacyl-tRNA biosynthesis  [bvu00970]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00970.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00740.xml"
+network delete network="Riboflavin metabolism  [eco00740]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00740.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00750.xml"
+network delete network="Vitamin B6 metabolism  [eco00750]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00750.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00760.xml"
+network delete network="Nicotinate and nicotinamide metabolism  [eco00760]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00760.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00770.xml"
+network delete network="Pantothenate and CoA biosynthesis  [eco00770]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00770.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00780.xml"
+network delete network="Biotin metabolism  [eco00780]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00780.graphml"
 session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_16.cys"
 command quit

@@ -1,0 +1,17 @@
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00361.xml"
+network delete network="Chlorocyclohexane and chlorobenzene degradation  [eco00361]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00361.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00623.xml"
+network delete network="Toluene degradation  [eco00623]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00623.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00622.xml"
+network delete network="Xylene degradation  [eco00622]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00622.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00633.xml"
+network delete network="Nitrotoluene degradation  [eco00633]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00633.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00930.xml"
+network delete network="Caprolactam degradation  [eco00930]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00930.graphml"
+session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_21.cys"
+command quit

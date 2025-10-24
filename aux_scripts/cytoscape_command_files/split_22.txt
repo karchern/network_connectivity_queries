@@ -1,0 +1,17 @@
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00621.xml"
+network delete network="Dioxin degradation  [eco00621]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00621.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00626.xml"
+network delete network="Naphthalene degradation  [eco00626]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00626.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00984.xml"
+network delete network="Steroid degradation  [eco00984]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00984.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco03020.xml"
+network delete network="RNA polymerase  [eco03020]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco03020.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco03010.xml"
+network delete network="Ribosome  [eco03010]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco03010.graphml"
+session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_22.cys"
+command quit

@@ -1,17 +1,17 @@
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu03410.xml"
-network delete network="Base excision repair  [bvu03410]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu03410.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu03420.xml"
-network delete network="Nucleotide excision repair  [bvu03420]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu03420.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu03430.xml"
-network delete network="Mismatch repair  [bvu03430]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu03430.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu03440.xml"
-network delete network="Homologous recombination  [bvu03440]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu03440.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu02010.xml"
-network delete network="ABC transporters  [bvu02010]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu02010.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00900.xml"
+network delete network="Terpenoid backbone biosynthesis  [eco00900]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00900.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00907.xml"
+network delete network="Pinene, camphor and geraniol degradation  [eco00907]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00907.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00523.xml"
+network delete network="Polyketide sugar unit biosynthesis  [eco00523]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00523.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco01053.xml"
+network delete network="Biosynthesis of siderophore group nonribosomal peptides  [eco01053]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco01053.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00946.xml"
+network delete network="Degradation of flavonoids  [eco00946]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00946.graphml"
 session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_18.cys"
 command quit

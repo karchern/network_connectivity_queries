@@ -1,0 +1,17 @@
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco02020.xml"
+network delete network="Two-component system  [eco02020]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco02020.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco04146.xml"
+network delete network="Peroxisome  [eco04146]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco04146.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco02024.xml"
+network delete network="Quorum sensing  [eco02024]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco02024.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco02026.xml"
+network delete network="Biofilm formation - Escherichia coli  [eco02026]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco02026.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco02030.xml"
+network delete network="Bacterial chemotaxis  [eco02030]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco02030.graphml"
+session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_26.cys"
+command quit
