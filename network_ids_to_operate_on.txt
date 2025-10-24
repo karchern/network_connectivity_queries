@@ -1,3 +1,17 @@
+Global and overview maps
+01100  Metabolic pathways
+01110  Biosynthesis of secondary metabolites
+01120  Microbial metabolism in diverse environments
+01200  Carbon metabolism
+01210  2-Oxocarboxylic acid metabolism
+01212  Fatty acid metabolism
+01230  Biosynthesis of amino acids
+01232  Nucleotide metabolism
+01250  Biosynthesis of nucleotide sugars
+01240  Biosynthesis of cofactors
+01220  Degradation of aromatic compounds
+01310  Nitrogen cycle
+01320  Sulfur cycle
 Carbohydrate metabolism
 00010  Glycolysis / Gluconeogenesis
 00020  Citrate cycle (TCA cycle)
@@ -23,10 +37,14 @@ Energy metabolism
 Lipid metabolism
 00061  Fatty acid biosynthesis
 00071  Fatty acid degradation
+00074  Mycolic acid biosynthesis
 00121  Secondary bile acid biosynthesis
 00561  Glycerolipid metabolism
 00564  Glycerophospholipid metabolism
+00565  Ether lipid metabolism
 00600  Sphingolipid metabolism
+00592  alpha-Linolenic acid metabolism
+01040  Biosynthesis of unsaturated fatty acids
 Nucleotide metabolism
 00230  Purine metabolism
 00240  Pyrimidine metabolism
@@ -37,11 +55,13 @@ Amino acid metabolism
 00280  Valine, leucine and isoleucine degradation
 00290  Valine, leucine and isoleucine biosynthesis
 00300  Lysine biosynthesis
+00310  Lysine degradation
 00220  Arginine biosynthesis
 00330  Arginine and proline metabolism
 00340  Histidine metabolism
 00350  Tyrosine metabolism
 00360  Phenylalanine metabolism
+00380  Tryptophan metabolism
 00400  Phenylalanine, tyrosine and tryptophan biosynthesis
 Metabolism of other amino acids
 00410  beta-Alanine metabolism
@@ -53,9 +73,10 @@ Metabolism of other amino acids
 00480  Glutathione metabolism
 Glycan biosynthesis and metabolism
 00520  Amino sugar and nucleotide sugar metabolism
+00541  Biosynthesis of various nucleotide sugars
 00511  Other glycan degradation
 00540  Lipopolysaccharide biosynthesis
-00541  Biosynthesis of various nucleotide sugars
+00542  O-Antigen repeat unit biosynthesis
 00550  Peptidoglycan biosynthesis
 00552  Teichoic acid biosynthesis
 00543  Exopolysaccharide biosynthesis
@@ -73,7 +94,9 @@ Metabolism of cofactors and vitamins
 00130  Ubiquinone and other terpenoid-quinone biosynthesis
 Metabolism of terpenoids and polyketides
 00900  Terpenoid backbone biosynthesis
+00907  Pinene, camphor and geraniol degradation
 00523  Polyketide sugar unit biosynthesis
+01053  Biosynthesis of siderophore group nonribosomal peptides
 Biosynthesis of other secondary metabolites
 00946  Degradation of flavonoids
 00332  Carbapenem biosynthesis
@@ -84,17 +107,26 @@ Biosynthesis of other secondary metabolites
 00999  Biosynthesis of various plant secondary metabolites
 Xenobiotics biodegradation and metabolism
 00362  Benzoate degradation
+00627  Aminobenzoate degradation
+00364  Fluorobenzoate degradation
 00625  Chloroalkane and chloroalkene degradation
+00361  Chlorocyclohexane and chlorobenzene degradation
+00623  Toluene degradation
+00622  Xylene degradation
+00633  Nitrotoluene degradation
+00930  Caprolactam degradation
+00621  Dioxin degradation
 00626  Naphthalene degradation
+00984  Steroid degradation
 Genetic Information Processing
 Transcription
 03020  RNA polymerase
 Translation
 03010  Ribosome
 00970  Aminoacyl-tRNA biosynthesis
+03008  Ribosome biogenesis in eukaryotes
 Folding, sorting and degradation
 03060  Protein export
-04141  Protein processing in endoplasmic reticulum
 04122  Sulfur relay system
 03018  RNA degradation
 Replication and repair
@@ -103,19 +135,24 @@ Replication and repair
 03420  Nucleotide excision repair
 03430  Mismatch repair
 03440  Homologous recombination
+Information processing in viruses
+03250  Viral life cycle - HIV-1
+03258  Virion - Bacteriophage lambda
 Environmental Information Processing
 Membrane transport
 02010  ABC transporters
+02060  Phosphotransferase system (PTS)
 03070  Bacterial secretion system
 Signal transduction
 02020  Two-component system
 Cellular Processes
 Transport and catabolism
-04142  Lysosome
 04146  Peroxisome
 Cellular community - prokaryotes
 02024  Quorum sensing
+02026  Biofilm formation - Escherichia coli
 Cell motility
+02030  Bacterial chemotaxis
 02040  Flagellar assembly
 Organismal Systems
 Digestive system
