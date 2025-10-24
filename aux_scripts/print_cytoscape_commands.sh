@@ -3,7 +3,7 @@ set -euo pipefail
 
 rm -f cytoscape_command_files/*
 
-base="bvu"
+base="eco"
 while read line
 do
 	# Skip the line if it doesnt start with a number (these are comment lines)
