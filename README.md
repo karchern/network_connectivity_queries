@@ -27,7 +27,7 @@ A core feature of this workflow is to take a set of enzyme <-> metabolite pairs 
 To run
 
 - Configure `ko_metabolite_map.csv` with your pairings of interest. You can add comment lines for readability, which will be ignored by the script.
-- In it's simplest form (reading from `ko_metabolite_map.csv`), run `query_kegg_networks query-shortest-distances --ko_metabolite_csv ko_metabolite_map.csv`, by default writing results to `ko_metabolite_shortest_distances.csv`
+- In it's simplest form (reading from `ko_metabolite_map.csv`), run `query_kegg_networks query-shortest-distances --ko_metabolite_tsv ko_metabolite_map.tsv`, by default writing results to `ko_metabolite_shortest_distances.csv`
   - Results will contain one line per network and ko <-> metabolite pair
   - Program will issue a warning if a given pairing was _never_ found - this could be because a path does no exist or because either KO or metabolite were misspelt.
 

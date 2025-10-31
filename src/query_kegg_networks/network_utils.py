@@ -2,7 +2,7 @@ import networkx as nx
 
 def read_ko_metabolite_map(
 	ko_metabolite_map,
-	delim = ','
+	delim = '\t'
 ):
 	kos = []
 	metabolites = []
@@ -171,8 +171,9 @@ def query_data(
 	# 	return None	
 	shortest_path_directed = get_shortest_path_between_KO_and_metabolite(G_directed, ko, metabolite, debug = False)
 	shortest_path_undirected = get_shortest_path_between_KO_and_metabolite(G_undirected, ko, metabolite, debug = False)
-	shortest_path_directed = ensure_shortest_path_makes_sense(shortest_path_directed)
-	shortest_path_undirected = ensure_shortest_path_makes_sense(shortest_path_undirected)
+    # ensure_shortest_path_makes_sense does not generalize to stuff other than BVU!
+	#shortest_path_directed = ensure_shortest_path_makes_sense(shortest_path_directed)
+	#shortest_path_undirected = ensure_shortest_path_makes_sense(shortest_path_undirected)
 	if len(shortest_path_directed) == 0:
 		if len(shortest_path_undirected) == 0:
 			print(f"{ko}, {metabolite}, Path length NA: No path found linking them.")
