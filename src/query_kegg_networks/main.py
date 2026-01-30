@@ -29,8 +29,7 @@ def query_neighbors(input_graphml, seeds, degree_of_neighborhood = 1):
 	G_directed = network_utils.read_graphml(input_graphml)
 	# Just for safety, should already be removed in cytoscape
 	G_directed = network_utils.prune_nodes(G_directed)
-	G_directed = network_utils.rename_nodes(G_directed, sel_substring = "KEGG_NODE_LABEL", debug = True)
-	#G_directed = network_utils.rename_nodes(G_directed, sel_substring = "KEGG_NODE_LABEL_LIST_FIRST", debug = True)    
+	G_directed = network_utils.rename_nodes(G_directed, debug = True)
 	G_undirected = G_directed.to_undirected()
 
 	all_neighbors = {}
@@ -46,8 +45,7 @@ def query_shortest_distance_single_network(input_graphml, ko_metabolite_csv):
 	G_directed = network_utils.read_graphml(input_graphml) 
 	# Just for safety, should already be removed in cytoscape
 	G_directed = network_utils.prune_nodes(G_directed)
-	G_directed = network_utils.rename_nodes(G_directed, sel_substring = "KEGG_NODE_LABEL", debug = True)
-	#G_directed = network_utils.rename_nodes(G_directed, sel_substring = "KEGG_NODE_LABEL_LIST_FIRST", debug = True)    
+	G_directed = network_utils.rename_nodes(G_directed, debug = True)
 
 	kos, metabolites = network_utils.read_ko_metabolite_map(ko_metabolite_csv)
 
@@ -141,6 +139,8 @@ def query_neighborhoods(
 	if any(seed not in seed_found for seed in seeds):
 		all_node_names = _get_all_nodes_in_networks(input_folder_graphml)
 
+
+
 	for seed in seeds:
 		if seed not in seed_found:
 			close_match = find_closest_match(seed, all_node_names)
@@ -181,7 +181,7 @@ def _get_all_nodes_in_networks(
 		network_file_path = os.path.join(input_folder_graphml, network_file)
 		G_directed = network_utils.read_graphml(network_file_path)
 		G_directed = network_utils.prune_nodes(G_directed)
-		G_directed = network_utils.rename_nodes(G_directed, sel_substring = "KEGG_NODE_LABEL_LIST_FIRST", debug = True)
+		G_directed = network_utils.rename_nodes(G_directed, debug = True)
 		nodes = list(G_directed.nodes())
 		all_nodes.extend(nodes)
 	all_nodes = list(set(all_nodes))

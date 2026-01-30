@@ -59,7 +59,7 @@ def render_path_readable(
 
 def rename_nodes(
 	graph_object,
-	sel_substring = None,
+	sel_substring = "KEGG_NODE_LABEL",
 	debug = False
 	):
 	#node_mapping = {node: graph_object.nodes[node]['KEGG_NODE_LABEL_LIST_FIRST'].replace('...', "") for node in graph_object.nodes()}
