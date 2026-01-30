@@ -126,6 +126,10 @@ def query_neighborhoods(
 		network_file_path = os.path.join(input_folder_graphml, network_file)
 		neighbors_res = query_neighbors(network_file_path, seeds, degree_of_neighborhood=degree_of_neighborhood)
 		all_neighbors[network_file] = neighbors_res
+
+	compound_trivname_map = pd.read_csv('compound_trivname_map.tsv', sep='\t', header=None)
+	compunds = compound_trivname_map[0].tolist()
+	trivnames = compound_trivname_map[1].tolist()
 	
 	df = pd.DataFrame(all_neighbors).transpose()
 	# apply this logic to each column: replace NaNs with empty string, and join the list of neighbors with a comma
@@ -140,7 +144,10 @@ def query_neighborhoods(
 	for seed in seeds:
 		if seed not in seed_found:
 			close_match = find_closest_match(seed, all_node_names)
-			if close_match:
+			print(any([seed in trivn for trivn in trivnames]))
+			if any([seed in trivn for trivn in trivnames]):
+				stri = f"{seed} is a known trivial name for a compound in KEGG. This suggests that the seed should be converted to the corresponding KEGG compound ID before querying the networks."
+			elif close_match:
 				stri = f"Warning: Could not find {seed} in any network. Did you mean {close_match}?"
 			else:
 				stri = f"Warning: Could not find {seed} in any network, and I couldn't find a close match in the networks. This suggests the seed is not present in the networks."
