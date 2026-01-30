@@ -27,7 +27,8 @@ A core feature of this workflow is to take a set of enzyme <-> metabolite pairs 
 To run
 
 - Configure `ko_metabolite_map.csv` with your pairings of interest. You can add comment lines for readability, which will be ignored by the script.
-- In it's simplest form (reading from `ko_metabolite_map.tsv`), run `query_kegg_networks query-shortest-distances --ko_metabolite_tsv ko_metabolite_map.tsv`, by default writing results to `ko_metabolite_shortest_distances.csv`
+- In it's simplest form (reading from `ko_metabolite_map.tsv`), run `query_kegg_networks query-shortest-distances --ko_metabolite_tsv ko_metabolite_map.tsv --input_folder_graphml <PATH_TO_FOLDER_WITH_GRAPHML_FILES>`, by default writing results to `ko_metabolite_shortest_distances.csv`
+  - There is a subfolder in `networks_graphml`, one for each supported organism. Specify the full relative path. For example, for `E. coli` you would supply `... --input_folder_graphlm `
   - Results will contain one line per network and ko <-> metabolite pair
   - Program will issue a warning if a given pairing was _never_ found - this could be because a path does no exist or because either KO or metabolite were misspelt.
 
@@ -36,5 +37,6 @@ To run
 Another commong operation is to find neighbors of KEGG pathway entries. 
 
 - Configure `seeds.txt`. Should be a 1-column file containing seed nodes. Can be KOs, metabolites, or both.
-- To compute sets of immediate neighbors of node entries in `seeds.txt`, run `query_kegg_networks query-neighborhoods --degree_of_neighborhood 1`. If you want to query more extended neighborhood spaces (i.e neighbors of neighbors, neighbors of neighbors of neighbors etc), increase `--degree_of_neighborhood`
+- To compute sets of immediate neighbors of node entries in `seeds.txt`, run `query_kegg_networks query-neighborhoods --degree_of_neighborhood 1 --input_folder_graphml <PATH_TO_FOLDER_WITH_GRAPHML_FILES>`. If you want to query more extended neighborhood spaces (i.e neighbors of neighbors, neighbors of neighbors of neighbors etc), increase `--degree_of_neighborhood`
   - Programm will issue a warning should a seed be found in no network.
+  - As for the other commands, make sure to supply the path to the input folde with the graphml objects as a relative path
