@@ -144,7 +144,6 @@ def query_neighborhoods(
 	for seed in seeds:
 		if seed not in seed_found:
 			close_match = find_closest_match(seed, all_node_names)
-			print(any([seed in trivn for trivn in trivnames]))
 			if any([seed in trivn for trivn in trivnames]):
 				stri = f"{seed} is a known trivial name for a compound in KEGG. This suggests that the seed should be converted to the corresponding KEGG compound ID before querying the networks."
 			elif close_match:
