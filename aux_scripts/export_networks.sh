@@ -7,4 +7,4 @@ rm -f networks_graphml
 for file in $(ls cytoscape_command_files)
 do
 	export JAVA_HOME=${path_to_jdk}; bash cytoscape.sh --script /Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/${file}
-done
+done 

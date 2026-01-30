@@ -1,17 +1,17 @@
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00521.xml"
-network delete network="Streptomycin biosynthesis  [bvu00521]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00521.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00525.xml"
-network delete network="Acarbose and validamycin biosynthesis  [bvu00525]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00525.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00401.xml"
-network delete network="Novobiocin biosynthesis  [bvu00401]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00401.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00999.xml"
-network delete network="Biosynthesis of various plant secondary metabolites  [bvu00999]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00999.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00362.xml"
-network delete network="Benzoate degradation  [bvu00362]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00362.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00542.xml"
+network delete network="O-Antigen repeat unit biosynthesis  [eco00542]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00542.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00550.xml"
+network delete network="Peptidoglycan biosynthesis  [eco00550]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00550.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00552.xml"
+network delete network="Teichoic acid biosynthesis  [eco00552]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00552.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00543.xml"
+network delete network="Exopolysaccharide biosynthesis  [eco00543]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00543.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00730.xml"
+network delete network="Thiamine metabolism  [eco00730]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00730.graphml"
 session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_15.cys"
 command quit

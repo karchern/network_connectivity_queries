@@ -1,0 +1,17 @@
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00970.xml"
+network delete network="Aminoacyl-tRNA biosynthesis  [eco00970]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00970.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco03008.xml"
+network delete network="Ribosome biogenesis in eukaryotes  [eco03008]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco03008.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco03060.xml"
+network delete network="Protein export  [eco03060]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco03060.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco04122.xml"
+network delete network="Sulfur relay system  [eco04122]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco04122.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco03018.xml"
+network delete network="RNA degradation  [eco03018]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco03018.graphml"
+session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_23.cys"
+command quit

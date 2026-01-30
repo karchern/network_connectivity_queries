@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="SUID" attr.type="long" for="node" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="node" id="shared name"/>
+    <key attr.name="name" attr.type="string" for="node" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="node" id="selected"/>
+    <key attr.name="KEGG_NODE_X" attr.type="string" for="node" id="KEGG_NODE_X"/>
+    <key attr.name="KEGG_NODE_Y" attr.type="string" for="node" id="KEGG_NODE_Y"/>
+    <key attr.name="KEGG_NODE_WIDTH" attr.type="string" for="node" id="KEGG_NODE_WIDTH"/>
+    <key attr.name="KEGG_NODE_HEIGHT" attr.type="string" for="node" id="KEGG_NODE_HEIGHT"/>
+    <key attr.name="KEGG_NODE_LABEL" attr.type="string" for="node" id="KEGG_NODE_LABEL"/>
+    <key attr.name="KEGG_NODE_LABEL_LIST_FIRST" attr.type="string" for="node" id="KEGG_NODE_LABEL_LIST_FIRST"/>
+    <key attr.name="KEGG_NODE_LABEL_LIST" attr.type="string" for="node" id="KEGG_NODE_LABEL_LIST"/>
+    <key attr.name="KEGG_ID" attr.type="string" for="node" id="KEGG_ID"/>
+    <key attr.name="KEGG_NODE_LABEL_COLOR" attr.type="string" for="node" id="KEGG_NODE_LABEL_COLOR"/>
+    <key attr.name="KEGG_NODE_FILL_COLOR" attr.type="string" for="node" id="KEGG_NODE_FILL_COLOR"/>
+    <key attr.name="KEGG_NODE_REACTIONID" attr.type="string" for="node" id="KEGG_NODE_REACTIONID"/>
+    <key attr.name="KEGG_NODE_TYPE" attr.type="string" for="node" id="KEGG_NODE_TYPE"/>
+    <key attr.name="KEGG_NODE_SHAPE" attr.type="string" for="node" id="KEGG_NODE_SHAPE"/>
+    <key attr.name="KEGG_LINK" attr.type="string" for="node" id="KEGG_LINK"/>
+    <key attr.name="SUID" attr.type="long" for="edge" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="edge" id="shared name"/>
+    <key attr.name="shared interaction" attr.type="string" for="edge" id="shared interaction"/>
+    <key attr.name="name" attr.type="string" for="edge" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="edge" id="selected"/>
+    <key attr.name="interaction" attr.type="string" for="edge" id="interaction"/>
+    <key attr.name="KEGG_RELATION_TYPE" attr.type="string" for="edge" id="KEGG_RELATION_TYPE"/>
+    <key attr.name="KEGG_REACTION_TYPE" attr.type="string" for="edge" id="KEGG_REACTION_TYPE"/>
+    <key attr.name="KEGG_REACTION_GENE" attr.type="string" for="edge" id="KEGG_REACTION_GENE"/>
+    <key attr.name="KEGG_EDGE_COLOR" attr.type="string" for="edge" id="KEGG_EDGE_COLOR"/>
+    <key attr.name="KEGG_EDGE_COLOR_BG" attr.type="string" for="edge" id="KEGG_EDGE_COLOR_BG"/>
+    <key attr.name="KEGG_EDGE_SUBTYPES" attr.type="string" for="edge" id="KEGG_EDGE_SUBTYPES"/>
+    <key attr.name="KEGG_EDGE_LABEL" attr.type="string" for="edge" id="KEGG_EDGE_LABEL"/>
+    <key attr.name="SUID" attr.type="long" for="graph" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="graph" id="shared name"/>
+    <key attr.name="name" attr.type="string" for="graph" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="graph" id="selected"/>
+    <key attr.name="KEGG_PATHWAY_ID" attr.type="string" for="graph" id="KEGG_PATHWAY_ID"/>
+    <key attr.name="KEGG_PATHWAY_IMAGE" attr.type="string" for="graph" id="KEGG_PATHWAY_IMAGE"/>
+    <key attr.name="KEGG_PATHWAY_LINK" attr.type="string" for="graph" id="KEGG_PATHWAY_LINK"/>
+    <key attr.name="KEGG_PATHWAY_ORG" attr.type="string" for="graph" id="KEGG_PATHWAY_ORG"/>
+    <key attr.name="__Annotations" attr.type="string" for="graph" id="__Annotations"/>
+    <graph edgedefault="directed" id="Nitrogen cycle [eco01310]">
+        <node id="4571">
+            <data key="SUID">4571</data>
+            <data key="shared name">path:eco01310:83</data>
+            <data key="name">path:eco01310:83</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">1002</data>
+            <data key="KEGG_NODE_Y">669</data>
+            <data key="KEGG_NODE_WIDTH">1</data>
+            <data key="KEGG_NODE_HEIGHT">1</data>
+            <data key="KEGG_NODE_LABEL">K10534...</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">K10534...</data>
+            <data key="KEGG_NODE_LABEL_LIST">[K10534...]</data>
+            <data key="KEGG_ID">[ko:K10534, ko:K00367, ko:K00372, ko:K00360]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#000000</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_REACTIONID">rn:R00794 rn:R00796 rn:R00791 rn:R00798</data>
+            <data key="KEGG_NODE_TYPE">ortholog</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?K10534+K00367+K00372+K00360</data>
+        </node>
+        <node id="4565">
+            <data key="SUID">4565</data>
+            <data key="shared name">path:eco01310:75</data>
+            <data key="name">path:eco01310:75</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">692</data>
+            <data key="KEGG_NODE_Y">235</data>
+            <data key="KEGG_NODE_WIDTH">1</data>
+            <data key="KEGG_NODE_HEIGHT">1</data>
+            <data key="KEGG_NODE_LABEL">K20935</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">K20935</data>
+            <data key="KEGG_NODE_LABEL_LIST">[K20935]</data>
+            <data key="KEGG_ID">[ko:K20935]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#000000</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_REACTIONID">rn:R07174</data>
+            <data key="KEGG_NODE_TYPE">ortholog</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?K20935</data>
+        </node>
+        <node id="4562">
+            <data key="SUID">4562</data>
+            <data key="shared name">path:eco01310:74</data>
+            <data key="name">path:eco01310:74</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">830</data>
+            <data key="KEGG_NODE_Y">348</data>
+            <data key="KEGG_NODE_WIDTH">8</data>
+            <data key="KEGG_NODE_HEIGHT">8</data>
+            <data key="KEGG_NODE_LABEL">C05361</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">Hydrazine</data>
+            <data key="KEGG_NODE_LABEL_LIST">[C05361]</data>
+            <data key="KEGG_ID">[cpd:C05361]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#000000</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_TYPE">compound</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?C05361</data>
+        </node>
+        <node id="4559">
+            <data key="SUID">4559</data>
+            <data key="shared name">path:eco01310:45</data>
+            <data key="name">path:eco01310:45</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">640</data>
+            <data key="KEGG_NODE_Y">666</data>
+            <data key="KEGG_NODE_WIDTH">1</data>
+            <data key="KEGG_NODE_HEIGHT">1</data>
+            <data key="KEGG_NODE_LABEL">nirB...</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">nirB...</data>
+            <data key="KEGG_NODE_LABEL_LIST">[nirB...]</data>
+            <data key="KEGG_ID">[eco:b3365, eco:b3366, eco:b4070]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#66CC66</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_REACTIONID">rn:R00787 rn:R05712</data>
+            <data key="KEGG_NODE_TYPE">gene</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?eco:b3365+eco:b3366+eco:b4070</data>
+        </node>
+        <node id="4556">
+            <data key="SUID">4556</data>
+            <data key="shared name">path:eco01310:43</data>
+            <data key="name">path:eco01310:43</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">911</data>
+            <data key="KEGG_NODE_Y">410</data>
+            <data key="KEGG_NODE_WIDTH">1</data>
+            <data key="KEGG_NODE_HEIGHT">1</data>
+            <data key="KEGG_NODE_LABEL">K20932...</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">K20932...</data>
+            <data key="KEGG_NODE_LABEL_LIST">[K20932...]</data>
+            <data key="KEGG_ID">[ko:K20932, ko:K20933, ko:K20934]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#000000</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_REACTIONID">rn:R09799</data>
+            <data key="KEGG_NODE_TYPE">ortholog</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?K20932+K20933+K20934</data>
+        </node>
+        <node id="4553">
+            <data key="SUID">4553</data>
+            <data key="shared name">path:eco01310:42</data>
+            <data key="name">path:eco01310:42</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">997</data>
+            <data key="KEGG_NODE_Y">408</data>
+            <data key="KEGG_NODE_WIDTH">1</data>
+            <data key="KEGG_NODE_HEIGHT">1</data>
+            <data key="KEGG_NODE_LABEL">K04561...</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">K04561...</data>
+            <data key="KEGG_NODE_LABEL_LIST">[K04561...]</data>
+            <data key="KEGG_ID">[ko:K04561, ko:K02305]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#000000</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_REACTIONID">rn:R00294</data>
+            <data key="KEGG_NODE_TYPE">ortholog</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?K04561+K02305</data>
+        </node>
+        <node id="4550">
+            <data key="SUID">4550</data>
+            <data key="shared name">path:eco01310:41</data>
+            <data key="name">path:eco01310:41</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">997</data>
+            <data key="KEGG_NODE_Y">528</data>
+            <data key="KEGG_NODE_WIDTH">1</data>
+            <data key="KEGG_NODE_HEIGHT">1</data>
+            <data key="KEGG_NODE_LABEL">K00368...</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">K00368...</data>
+            <data key="KEGG_NODE_LABEL_LIST">[K00368...]</data>
+            <data key="KEGG_ID">[ko:K00368, ko:K15864]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#000000</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_REACTIONID">rn:R00783 rn:R00785</data>
+            <data key="KEGG_NODE_TYPE">ortholog</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?K00368+K15864</data>
+        </node>
+        <node id="4547">
+            <data key="SUID">4547</data>
+            <data key="shared name">path:eco01310:40</data>
+            <data key="name">path:eco01310:40</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">997</data>
+            <data key="KEGG_NODE_Y">588</data>
+            <data key="KEGG_NODE_WIDTH">8</data>
+            <data key="KEGG_NODE_HEIGHT">8</data>
+            <data key="KEGG_NODE_LABEL">C00088</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">Nitrite</data>
+            <data key="KEGG_NODE_LABEL_LIST">[C00088]</data>
+            <data key="KEGG_ID">[cpd:C00088]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#000000</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_TYPE">compound</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?C00088</data>
+        </node>
+        <node id="4544">
+            <data key="SUID">4544</data>
+            <data key="shared name">path:eco01310:39</data>
+            <data key="name">path:eco01310:39</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">992</data>
+            <data key="KEGG_NODE_Y">669</data>
+            <data key="KEGG_NODE_WIDTH">1</data>
+            <data key="KEGG_NODE_HEIGHT">1</data>
+            <data key="KEGG_NODE_LABEL">narG...</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">narG...</data>
+            <data key="KEGG_NODE_LABEL_LIST">[narG...]</data>
+            <data key="KEGG_ID">[eco:b1224, eco:b1225, eco:b1227, eco:b1465, eco:b1467, eco:b1468, eco:b2203, eco:b2206]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#66CC66</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_REACTIONID">rn:R09497 rn:R03071 rn:R00798</data>
+            <data key="KEGG_NODE_TYPE">gene</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?eco:b1224+eco:b1225+eco:b1227+eco:b1465+eco:b1467+eco:b1468+eco:b2203+eco:b2206</data>
+        </node>
+        <node id="4541">
+            <data key="SUID">4541</data>
+            <data key="shared name">path:eco01310:37</data>
+            <data key="name">path:eco01310:37</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">878</data>
+            <data key="KEGG_NODE_Y">751</data>
+            <data key="KEGG_NODE_WIDTH">1</data>
+            <data key="KEGG_NODE_HEIGHT">1</data>
+            <data key="KEGG_NODE_LABEL">narG...</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">narG...</data>
+            <data key="KEGG_NODE_LABEL_LIST">[narG...]</data>
+            <data key="KEGG_ID">[eco:b1224, eco:b1225, eco:b1467, eco:b1468]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#66CC66</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_REACTIONID">rn:R00798</data>
+            <data key="KEGG_NODE_TYPE">gene</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?eco:b1224+eco:b1225+eco:b1467+eco:b1468</data>
+        </node>
+        <node id="4538">
+            <data key="SUID">4538</data>
+            <data key="shared name">path:eco01310:36</data>
+            <data key="name">path:eco01310:36</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">643</data>
+            <data key="KEGG_NODE_Y">751</data>
+            <data key="KEGG_NODE_WIDTH">1</data>
+            <data key="KEGG_NODE_HEIGHT">1</data>
+            <data key="KEGG_NODE_LABEL">K10535</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">K10535</data>
+            <data key="KEGG_NODE_LABEL_LIST">[K10535]</data>
+            <data key="KEGG_ID">[ko:K10535]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#000000</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_REACTIONID">rn:R10164</data>
+            <data key="KEGG_NODE_TYPE">ortholog</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?K10535</data>
+        </node>
+        <node id="4535">
+            <data key="SUID">4535</data>
+            <data key="shared name">path:eco01310:35</data>
+            <data key="name">path:eco01310:35</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">406</data>
+            <data key="KEGG_NODE_Y">751</data>
+            <data key="KEGG_NODE_WIDTH">1</data>
+            <data key="KEGG_NODE_HEIGHT">1</data>
+            <data key="KEGG_NODE_LABEL">K28504...</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">K28504...</data>
+            <data key="KEGG_NODE_LABEL_LIST">[K28504...]</data>
+            <data key="KEGG_ID">[ko:K28504, ko:K10945, ko:K10946]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#000000</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_REACTIONID">rn:R00148</data>
+            <data key="KEGG_NODE_TYPE">ortholog</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?K28504+K10945+K10946</data>
+        </node>
+        <node id="4532">
+            <data key="SUID">4532</data>
+            <data key="shared name">path:eco01310:18</data>
+            <data key="name">path:eco01310:18</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">410</data>
+            <data key="KEGG_NODE_Y">438</data>
+            <data key="KEGG_NODE_WIDTH">1</data>
+            <data key="KEGG_NODE_HEIGHT">1</data>
+            <data key="KEGG_NODE_LABEL">K02586...</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">K02586...</data>
+            <data key="KEGG_NODE_LABEL_LIST">[K02586...]</data>
+            <data key="KEGG_ID">[ko:K02586, ko:K02591, ko:K02588, ko:K00531, ko:K22896, ko:K22897, ko:K22898, ko:K22899]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#000000</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_REACTIONID">rn:R05185 rn:R12084</data>
+            <data key="KEGG_NODE_TYPE">ortholog</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?K02586+K02591+K02588+K00531+K22896+K22897+K22898+K22899</data>
+        </node>
+        <node id="4529">
+            <data key="SUID">4529</data>
+            <data key="shared name">path:eco01310:17</data>
+            <data key="name">path:eco01310:17</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">525</data>
+            <data key="KEGG_NODE_Y">751</data>
+            <data key="KEGG_NODE_WIDTH">8</data>
+            <data key="KEGG_NODE_HEIGHT">8</data>
+            <data key="KEGG_NODE_LABEL">C00192</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">NH2OH</data>
+            <data key="KEGG_NODE_LABEL_LIST">[C00192]</data>
+            <data key="KEGG_ID">[cpd:C00192]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#000000</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_TYPE">compound</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?C00192</data>
+        </node>
+        <node id="4526">
+            <data key="SUID">4526</data>
+            <data key="shared name">path:eco01310:16</data>
+            <data key="name">path:eco01310:16</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">997</data>
+            <data key="KEGG_NODE_Y">348</data>
+            <data key="KEGG_NODE_WIDTH">8</data>
+            <data key="KEGG_NODE_HEIGHT">8</data>
+            <data key="KEGG_NODE_LABEL">C00887</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">N2O</data>
+            <data key="KEGG_NODE_LABEL_LIST">[C00887]</data>
+            <data key="KEGG_ID">[cpd:C00887]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#000000</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_TYPE">compound</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?C00887</data>
+        </node>
+        <node id="4523">
+            <data key="SUID">4523</data>
+            <data key="shared name">path:eco01310:15</data>
+            <data key="name">path:eco01310:15</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">997</data>
+            <data key="KEGG_NODE_Y">467</data>
+            <data key="KEGG_NODE_WIDTH">8</data>
+            <data key="KEGG_NODE_HEIGHT">8</data>
+            <data key="KEGG_NODE_LABEL">C00533</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">NO</data>
+            <data key="KEGG_NODE_LABEL_LIST">[C00533]</data>
+            <data key="KEGG_ID">[cpd:C00533]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#000000</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_TYPE">compound</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?C00533</data>
+        </node>
+        <node id="4520">
+            <data key="SUID">4520</data>
+            <data key="shared name">path:eco01310:14</data>
+            <data key="name">path:eco01310:14</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">289</data>
+            <data key="KEGG_NODE_Y">751</data>
+            <data key="KEGG_NODE_WIDTH">8</data>
+            <data key="KEGG_NODE_HEIGHT">8</data>
+            <data key="KEGG_NODE_LABEL">C00014</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">NH3</data>
+            <data key="KEGG_NODE_LABEL_LIST">[C00014]</data>
+            <data key="KEGG_ID">[cpd:C00014]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#000000</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_TYPE">compound</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?C00014</data>
+        </node>
+        <node id="4517">
+            <data key="SUID">4517</data>
+            <data key="shared name">path:eco01310:13</data>
+            <data key="name">path:eco01310:13</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">762</data>
+            <data key="KEGG_NODE_Y">751</data>
+            <data key="KEGG_NODE_WIDTH">8</data>
+            <data key="KEGG_NODE_HEIGHT">8</data>
+            <data key="KEGG_NODE_LABEL">C00088</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">Nitrite</data>
+            <data key="KEGG_NODE_LABEL_LIST">[C00088]</data>
+            <data key="KEGG_ID">[cpd:C00088]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#000000</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_TYPE">compound</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?C00088</data>
+        </node>
+        <node id="4514">
+            <data key="SUID">4514</data>
+            <data key="shared name">path:eco01310:12</data>
+            <data key="name">path:eco01310:12</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">997</data>
+            <data key="KEGG_NODE_Y">751</data>
+            <data key="KEGG_NODE_WIDTH">8</data>
+            <data key="KEGG_NODE_HEIGHT">8</data>
+            <data key="KEGG_NODE_LABEL">C00244</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">Nitrate</data>
+            <data key="KEGG_NODE_LABEL_LIST">[C00244]</data>
+            <data key="KEGG_ID">[cpd:C00244]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#000000</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_TYPE">compound</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?C00244</data>
+        </node>
+        <node id="4511">
+            <data key="SUID">4511</data>
+            <data key="shared name">path:eco01310:11</data>
+            <data key="name">path:eco01310:11</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">546</data>
+            <data key="KEGG_NODE_Y">125</data>
+            <data key="KEGG_NODE_WIDTH">8</data>
+            <data key="KEGG_NODE_HEIGHT">8</data>
+            <data key="KEGG_NODE_LABEL">C00697</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">N2</data>
+            <data key="KEGG_NODE_LABEL_LIST">[C00697]</data>
+            <data key="KEGG_ID">[cpd:C00697]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#000000</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_TYPE">compound</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?C00697</data>
+        </node>
+        <node id="4508">
+            <data key="SUID">4508</data>
+            <data key="shared name">path:eco01310:10</data>
+            <data key="name">path:eco01310:10</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">474</data>
+            <data key="KEGG_NODE_Y">528</data>
+            <data key="KEGG_NODE_WIDTH">1</data>
+            <data key="KEGG_NODE_HEIGHT">1</data>
+            <data key="KEGG_NODE_LABEL">K00366...</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">K00366...</data>
+            <data key="KEGG_NODE_LABEL_LIST">[K00366...]</data>
+            <data key="KEGG_ID">[ko:K00366, ko:K17877, ko:K26139, ko:K26138, ko:K00361]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#000000</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_REACTIONID">rn:R00790 rn:R00787 rn:R00789</data>
+            <data key="KEGG_NODE_TYPE">ortholog</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?K00366+K17877+K26139+K26138+K00361</data>
+        </node>
+        <node id="4505">
+            <data key="SUID">4505</data>
+            <data key="shared name">path:eco01310:3</data>
+            <data key="name">path:eco01310:3</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">775</data>
+            <data key="KEGG_NODE_Y">233</data>
+            <data key="KEGG_NODE_WIDTH">1</data>
+            <data key="KEGG_NODE_HEIGHT">1</data>
+            <data key="KEGG_NODE_LABEL">K00376</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">K00376</data>
+            <data key="KEGG_NODE_LABEL_LIST">[K00376]</data>
+            <data key="KEGG_ID">[ko:K00376]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#000000</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_REACTIONID">rn:R02804</data>
+            <data key="KEGG_NODE_TYPE">ortholog</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?K00376</data>
+        </node>
+        <node id="4502">
+            <data key="SUID">4502</data>
+            <data key="shared name">path:eco01310:2</data>
+            <data key="name">path:eco01310:2</data>
+            <data key="selected">false</data>
+            <data key="KEGG_NODE_X">836</data>
+            <data key="KEGG_NODE_Y">444</data>
+            <data key="KEGG_NODE_WIDTH">1</data>
+            <data key="KEGG_NODE_HEIGHT">1</data>
+            <data key="KEGG_NODE_LABEL">K00366...</data>
+            <data key="KEGG_NODE_LABEL_LIST_FIRST">K00366...</data>
+            <data key="KEGG_NODE_LABEL_LIST">[K00366...]</data>
+            <data key="KEGG_ID">[ko:K00366, ko:K17877, ko:K26139, ko:K26138, ko:K00361]</data>
+            <data key="KEGG_NODE_LABEL_COLOR">#000000</data>
+            <data key="KEGG_NODE_FILL_COLOR">#FFFFFF</data>
+            <data key="KEGG_NODE_REACTIONID">rn:R00790 rn:R00787 rn:R00789</data>
+            <data key="KEGG_NODE_TYPE">ortholog</data>
+            <data key="KEGG_NODE_SHAPE">circle</data>
+            <data key="KEGG_LINK">https://www.kegg.jp/dbget-bin/www_bget?K00366+K17877+K26139+K26138+K00361</data>
+        </node>
+        <edge source="4559" target="4520">
+            <data key="SUID">4589</data>
+            <data key="shared name">rn:R00787 rn:R05712</data>
+            <data key="shared interaction">irreversible</data>
+            <data key="name">rn:R00787 rn:R05712</data>
+            <data key="selected">false</data>
+            <data key="interaction">irreversible</data>
+            <data key="KEGG_REACTION_TYPE">irreversible</data>
+            <data key="KEGG_EDGE_COLOR">#66CC66</data>
+            <data key="KEGG_EDGE_SUBTYPES">[irreversible]</data>
+        </edge>
+        <edge source="4547" target="4559">
+            <data key="SUID">4586</data>
+            <data key="shared name">rn:R00787 rn:R05712</data>
+            <data key="shared interaction">irreversible</data>
+            <data key="name">rn:R00787 rn:R05712</data>
+            <data key="selected">false</data>
+            <data key="interaction">irreversible</data>
+            <data key="KEGG_REACTION_TYPE">irreversible</data>
+            <data key="KEGG_EDGE_COLOR">#66CC66</data>
+            <data key="KEGG_EDGE_SUBTYPES">[irreversible]</data>
+        </edge>
+        <edge source="4544" target="4547">
+            <data key="SUID">4583</data>
+            <data key="shared name">rn:R09497 rn:R03071 rn:R00798</data>
+            <data key="shared interaction">irreversible</data>
+            <data key="name">rn:R09497 rn:R03071 rn:R00798</data>
+            <data key="selected">false</data>
+            <data key="interaction">irreversible</data>
+            <data key="KEGG_REACTION_TYPE">irreversible</data>
+            <data key="KEGG_EDGE_COLOR">#66CC66</data>
+            <data key="KEGG_EDGE_SUBTYPES">[irreversible]</data>
+        </edge>
+        <edge source="4541" target="4514">
+            <data key="SUID">4577</data>
+            <data key="shared name">rn:R00798</data>
+            <data key="shared interaction">irreversible</data>
+            <data key="name">rn:R00798</data>
+            <data key="selected">false</data>
+            <data key="interaction">irreversible</data>
+            <data key="KEGG_REACTION_TYPE">irreversible</data>
+            <data key="KEGG_EDGE_COLOR">#66CC66</data>
+            <data key="KEGG_EDGE_SUBTYPES">[irreversible]</data>
+        </edge>
+        <edge source="4517" target="4541">
+            <data key="SUID">4574</data>
+            <data key="shared name">rn:R00798</data>
+            <data key="shared interaction">irreversible</data>
+            <data key="name">rn:R00798</data>
+            <data key="selected">false</data>
+            <data key="interaction">irreversible</data>
+            <data key="KEGG_REACTION_TYPE">irreversible</data>
+            <data key="KEGG_EDGE_COLOR">#66CC66</data>
+            <data key="KEGG_EDGE_SUBTYPES">[irreversible]</data>
+        </edge>
+        <edge source="4514" target="4544">
+            <data key="SUID">4580</data>
+            <data key="shared name">rn:R09497 rn:R03071 rn:R00798</data>
+            <data key="shared interaction">irreversible</data>
+            <data key="name">rn:R09497 rn:R03071 rn:R00798</data>
+            <data key="selected">false</data>
+            <data key="interaction">irreversible</data>
+            <data key="KEGG_REACTION_TYPE">irreversible</data>
+            <data key="KEGG_EDGE_COLOR">#66CC66</data>
+            <data key="KEGG_EDGE_SUBTYPES">[irreversible]</data>
+        </edge>
+    </graph>
+</graphml>

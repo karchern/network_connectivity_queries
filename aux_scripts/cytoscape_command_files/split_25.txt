@@ -1,0 +1,17 @@
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco03250.xml"
+network delete network="Viral life cycle - HIV-1  [eco03250]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco03250.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco03258.xml"
+network delete network="Virion - Bacteriophage lambda  [eco03258]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco03258.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco02010.xml"
+network delete network="ABC transporters  [eco02010]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco02010.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco02060.xml"
+network delete network="Phosphotransferase system (PTS)  [eco02060]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco02060.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco03070.xml"
+network delete network="Bacterial secretion system  [eco03070]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco03070.graphml"
+session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_25.cys"
+command quit

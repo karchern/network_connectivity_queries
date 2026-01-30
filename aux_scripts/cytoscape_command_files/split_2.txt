@@ -1,17 +1,17 @@
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00052.xml"
-network delete network="Galactose metabolism  [bvu00052]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00052.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00053.xml"
-network delete network="Ascorbate and aldarate metabolism  [bvu00053]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00053.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00500.xml"
-network delete network="Starch and sucrose metabolism  [bvu00500]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00500.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00620.xml"
-network delete network="Pyruvate metabolism  [bvu00620]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00620.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu00630.xml"
-network delete network="Glyoxylate and dicarboxylate metabolism  [bvu00630]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu00630.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco01212.xml"
+network delete network="Fatty acid metabolism  [eco01212]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco01212.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco01230.xml"
+network delete network="Biosynthesis of amino acids  [eco01230]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco01230.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco01232.xml"
+network delete network="Nucleotide metabolism  [eco01232]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco01232.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco01250.xml"
+network delete network="Biosynthesis of nucleotide sugars  [eco01250]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco01250.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco01240.xml"
+network delete network="Biosynthesis of cofactors  [eco01240]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco01240.graphml"
 session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_2.cys"
 command quit

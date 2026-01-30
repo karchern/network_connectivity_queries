@@ -1,17 +1,17 @@
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu03060.xml"
-network delete network="Protein export  [bvu03060]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu03060.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu04141.xml"
-network delete network="Protein processing in endoplasmic reticulum  [bvu04141]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu04141.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu04122.xml"
-network delete network="Sulfur relay system  [bvu04122]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu04122.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu03018.xml"
-network delete network="RNA degradation  [bvu03018]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu03018.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu03030.xml"
-network delete network="DNA replication  [bvu03030]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu03030.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00785.xml"
+network delete network="Lipoic acid metabolism  [eco00785]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00785.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00790.xml"
+network delete network="Folate biosynthesis  [eco00790]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00790.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00670.xml"
+network delete network="One carbon pool by folate  [eco00670]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00670.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00860.xml"
+network delete network="Porphyrin metabolism  [eco00860]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00860.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00130.xml"
+network delete network="Ubiquinone and other terpenoid-quinone biosynthesis  [eco00130]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00130.graphml"
 session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_17.cys"
 command quit

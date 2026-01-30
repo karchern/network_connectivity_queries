@@ -1,17 +1,17 @@
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu02040.xml"
-network delete network="Flagellar assembly  [bvu02040]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu02040.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu04981.xml"
-network delete network="Folate transport and metabolism  [bvu04981]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu04981.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu04980.xml"
-network delete network="Cobalamin transport and metabolism  [bvu04980]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu04980.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu01501.xml"
-network delete network="beta-Lactam resistance  [bvu01501]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu01501.graphml"
-network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/bvu01502.xml"
-network delete network="Vancomycin resistance  [bvu01502]" nodeList=KEGG_NODE_TYPE:map
-network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/bvu01502.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00999.xml"
+network delete network="Biosynthesis of various plant secondary metabolites  [eco00999]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00999.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00362.xml"
+network delete network="Benzoate degradation  [eco00362]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00362.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00627.xml"
+network delete network="Aminobenzoate degradation  [eco00627]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00627.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00364.xml"
+network delete network="Fluorobenzoate degradation  [eco00364]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00364.graphml"
+network import file file="/Users/karcher/network_connectivity_queries/aux_scripts/../networks/eco00625.xml"
+network delete network="Chloroalkane and chloroalkene degradation  [eco00625]" nodeList=KEGG_NODE_TYPE:map
+network export options="graphml" outputFile="/Users/karcher/network_connectivity_queries/aux_scripts/../networks_graphml/eco00625.graphml"
 session save as file="/Users/karcher/network_connectivity_queries/aux_scripts/cytoscape_command_files/../cytoscape_session_files/split_20.cys"
 command quit
