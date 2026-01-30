@@ -62,7 +62,7 @@ def query_neighborhood():
 	pass
 
 @get_ko_metabolite_shortest_distances.command()
-@click.option('--input_folder_graphml', help='Path to folder holding networks as graphml files.', default = 'networks_graphml', show_default = True)
+@click.option('--input_folder_graphml', help='Path to folder holding networks as graphml files.', show_default = True)
 @click.option('--ko_metabolite_tsv', )
 @click.option('--output_csv', help='Path to the output csv file.', default = 'ko_metabolite_shortest_distances.csv', show_default = True)
 def query_shortest_distances(input_folder_graphml, ko_metabolite_tsv, output_csv):
@@ -99,7 +99,7 @@ def query_shortest_distances(input_folder_graphml, ko_metabolite_tsv, output_csv
 	
 
 @query_neighborhood.command()
-@click.option('--input_folder_graphml', help='Path to folder holding networks as graphml files.', default = 'networks_graphml', show_default = True)
+@click.option('--input_folder_graphml', help='Path to folder holding networks as graphml files.', show_default = True)
 @click.option('--seed_file', help = 'path to 1-column txt file containing input seed names', default = 'seeds.txt', show_default = True)
 @click.option('--degree_of_neighborhood', help='Degree of neighborhood to query', default = 1, show_default = True)
 @click.option('--output_csv', help='Path to the output csv file.', default = 'neighborhoods.csv', show_default = True)
@@ -161,7 +161,7 @@ def get_all_nodes():
 	pass
 
 @get_all_nodes.command()
-@click.option('--input_folder_graphml', help='Path to folder holding networks as graphml files.', default = 'networks_graphml', show_default = True)
+@click.option('--input_folder_graphml', help='Path to folder holding networks as graphml files.', show_default = True)
 @click.option('--output_file', help='Path to file holding all unique nodes found.', default = 'all_nodes.txt', show_default = True)
 def get_all_nodes_in_networks(input_folder_graphml, output_file):
 	all_nodes = _get_all_nodes_in_networks(input_folder_graphml)
